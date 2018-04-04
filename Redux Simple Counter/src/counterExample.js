@@ -1,6 +1,6 @@
 var expect = require("expect");
 var createStore = require("redux").createStore;
-const counter = (state =0, action) => {
+const counter = (state = 0, action) => {
   switch(action.type){
     case "INCREMENT":
     return state + 1;
@@ -43,7 +43,7 @@ const render = ()=>{
   document.body.innerText = store.getState();
 }
 store.subscribe(render);
-render({});
+
 document.addEventListener('click',()=>{
   store.dispatch({type:'INCREMENT'});
 })
