@@ -1,0 +1,23 @@
+{
+  "name": "reduxpackage",
+  "version": "1.0.0",
+  "description": "Packages needed for redux sample application",
+  "main": "counterExample.js",
+  "dependencies": {
+    "expect": "^22.4.3",
+    "redux": "^3.7.2",
+    "requirejs-babel": "0.0.9"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  
+  "author": "",
+  "license": "ISC"
+}
