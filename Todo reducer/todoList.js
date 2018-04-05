@@ -17,7 +17,7 @@ const todo = (state, action) => {
       }
       return {
         ...state,
-        completed: !todo.completed
+        completed: !state.completed
       };
     default:
       return state;
